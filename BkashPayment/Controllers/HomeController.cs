@@ -22,6 +22,11 @@ namespace BkashPayment.Controllers
             return View();
         }
 
+        public IActionResult CheckoutSuccess()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
